@@ -129,11 +129,11 @@ akala.injectWithNameAsync(['$isModule', '$agent.zeroconf', '$agent.media'], func
             {
                 var player = players[service.headers.USN] = new v10.Service(service.type);
                 player.A_ARG_TYPE_InstanceID = 0;
-                client.$proxy().registerPlayer({ identity: service.headers.USN as string, name: service.name });
+                client.$proxy().registerPlayer({ identity: service.headers.USN as string, name: service.name, icons: service.icons });
             },
             delete(service: upnp.Service)
             {
-                client.$proxy().unregisterPlayer({ identity: service.headers.USN as string, name: service.name });
+                client.$proxy().unregisterPlayer({ identity: service.headers.USN as string, name: service.name, icons: null });
                 delete players[service.headers.USN];
             }
         }).$proxy().notify({ type: 'urn:schemas-upnp-org:service:AVTransport:1' })
