@@ -1,6 +1,6 @@
 {
     "name": "@domojs/media-dlna",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "",
     "main": "dist/server/index.js",
     "scripts": {
@@ -16,7 +16,7 @@
     "license": "MIT",
     "types": "dist/server/index.d.ts",
     "dependencies": {
-        "@akala/server": "^2.1.6"
+        "@akala/server": "^2.1.9"
     },
     "peerDependencies": {
         "@domojs/media": "^1.1.55",
@@ -28,6 +28,6 @@
     "devDependencies": {
         "@domojs/media": "^1.1.63",
         "@domojs/service-discovery": "^1.1.7",
-        "@domojs/upnp": "^1.0.20"
+        "@domojs/upnp": "^1.0.21"
     }
 }
