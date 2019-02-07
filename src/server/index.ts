@@ -7,7 +7,7 @@ import { v10 } from './avtransport';
 
 const log = akala.logger;
 
-akala.injectWithNameAsync(['$isModule', '$agent.zeroconf', '$agent.media'], function (isModule: akala.worker.IsModule, zeroconfClient: Client<Connection>, mediaClient: Client<Connection>)
+akala.injectWithNameAsync(['$isModule', '$agent.api/zeroconf', '$agent.api/@domojs/media'], function (isModule: akala.worker.IsModule, zeroconfClient: Client<Connection>, mediaClient: Client<Connection>)
 {
     var players: { [id: string]: v10.Service } = {};
     if (isModule('@domojs/media-dlna'))

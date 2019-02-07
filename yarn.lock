@@ -36,51 +36,56 @@
     uuid "^3.3.2"
     ws "^6.0.0"
 
-"@akala/server@^2.0.36":
-  version "2.0.46"
-  resolved "https://registry.yarnpkg.com/@akala/server/-/server-2.0.46.tgz#16fa27a806115bedddceeb48c9586aab23a8f4fc"
+"@akala/server@^2.1.6":
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/@akala/server/-/server-2.1.6.tgz#2b90ee1cfe7c65e75f4bbb7b61132c14aba1500e"
+  integrity sha512-CVCfvxFnFBZFR7PsYQoQMzWXObPIcwiWbE7E6NdmtSGHFaopUzraSWyJn7kwnzYN1BKb7Hk+fXaC6MqB2D8thA==
   dependencies:
     "@akala/core" "^2.0.33"
     "@akala/json-rpc-ws" "^7.0.0"
     body-parser "^1.18.2"
-    debug "^3.1.0"
     express "^4.16.2"
     on-finished "^2.3.0"
     orchestrator "^0.3.8"
     routington "^1.0.3"
     send "^0.16.1"
     sequencify "0.0.7"
-    source-map-support "^0.4.18"
+    source-map-support "^0.5.9"
     underscore "^1.8.3"
-    ws "^3.3.2"
+    ws "^6.1.2"
     xml2js "^0.4.19"
 
-"@domojs/media@^1.1.55":
-  version "1.1.60"
-  resolved "https://registry.yarnpkg.com/@domojs/media/-/media-1.1.60.tgz#6a8241bc74db68c2ca3828b16c6f547ec2f744c0"
+"@domojs/media@^1.1.63":
+  version "1.1.63"
+  resolved "https://registry.yarnpkg.com/@domojs/media/-/media-1.1.63.tgz#6ee88b14a0ed0ec3360883671acce8a038130497"
+  integrity sha512-vuvGGXAV7ITeGibcWVcgVJJCsaa+eyoQHgs5pgwX4ys1t25Z8ZLzs368vZWFvGNt5KzXl/id0s8US+a8T2eQtw==
   dependencies:
     "@akala/client" "^2.0.4"
     "@akala/core" "^2.0.33"
     ioredis "^3.2.2"
     levenshtein "^1.0.5"
 
-"@domojs/service-discovery@^1.1.2":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@domojs/service-discovery/-/service-discovery-1.1.4.tgz#ef2dad09fb38d43b35bc9b8d641c9369ba67dafa"
+"@domojs/service-discovery@^1.1.7":
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/@domojs/service-discovery/-/service-discovery-1.1.7.tgz#7b8902af77b95fe1e5cda32b394de822059696a3"
+  integrity sha512-Tz1081oLt/JHp0V+z6Rctj5zdykn7SC6bgQF9pHGlfSoLqmz2AgLjm2sASwS9dEZxwExIdZG1cNoUGHUX5t9/A==
 
-"@domojs/upnp@^1.0.12":
-  version "1.0.16"
-  resolved "https://registry.yarnpkg.com/@domojs/upnp/-/upnp-1.0.16.tgz#5a7502b167ef780b92e3a45b6517959ae291daf7"
+"@domojs/upnp@^1.0.20":
+  version "1.0.20"
+  resolved "https://registry.yarnpkg.com/@domojs/upnp/-/upnp-1.0.20.tgz#42878658178b078ff86c43c382ff4e5e5bb17bb9"
+  integrity sha512-skfRblA+zvzi2nYv7TI5dD0AsTj/qjVCsnM307gGJd7Ly5sD1JqEgxCqIzx2PWQBLK0s6f0KG0ybhxTsevkQNA==
   dependencies:
-    ssdp-ts "^3.2.1"
+    ssdp-ts "^3.2.5"
 
-"@types/async@^2.0.40":
-  version "2.0.49"
-  resolved "https://registry.yarnpkg.com/@types/async/-/async-2.0.49.tgz#92e33d13f74c895cb9a7f38ba97db8431ed14bc0"
+"@types/async@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@types/async/-/async-2.4.0.tgz#2d707a0127a4fe45877c3152d813e4b23c6ce160"
+  integrity sha512-1/6EglKPJZjkj2KWSFrvbOeqDZTb+KEiU293MUwc/z3/g4a+jOPADHfcOzt/EbY0uEEr+dkUWTYQfVDzzOrMaw==
 
-"@types/bluebird@^3.5.8":
-  version "3.5.23"
-  resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.5.23.tgz#e805da976b76892b2b2e50eec29e84914c730670"
+"@types/bluebird@^3.5.25":
+  version "3.5.25"
+  resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.5.25.tgz#59188b871208092e37767e4b3d80c3b3eaae43bd"
+  integrity sha512-yfhIBix+AIFTmYGtkC0Bi+XGjSkOINykqKvO/Wqdz/DuXlAKK7HmhLAXdPIGsV4xzKcL3ev/zYc4yLNo+OvGaw==
 
 "@types/debug@0.0.29":
   version "0.0.29"
@@ -100,9 +105,10 @@
   version "10.7.1"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.7.1.tgz#b704d7c259aa40ee052eec678758a68d07132a2e"
 
-"@types/node@^8.0.17":
-  version "8.10.26"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.26.tgz#950e3d4e6b316ba6e1ae4e84d9155aba67f88c2f"
+"@types/node@^8.10.39":
+  version "8.10.39"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.39.tgz#e7e87ad00364dd7bc485c940926345b8ec1a26ca"
+  integrity sha512-rE7fktr02J8ybFf6eysife+WF+L4sAHWzw09DgdCebEu+qDwMvv4zl6Bc+825ttGZP73kCKxa3dhJOoGJ8+5mA==
 
 accepts@~1.3.5:
   version "1.3.5"
@@ -211,6 +217,11 @@ buffer-alloc@^1.1.0:
 buffer-fill@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/buffer-fill/-/buffer-fill-1.0.0.tgz#f8f78b76789888ef39f205cd637f68e702122b2c"
+
+buffer-from@^1.0.0:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
+  integrity sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
 
 bufferutil@^3.0.2:
   version "3.0.5"
@@ -1123,25 +1134,29 @@ simple-get@^2.7.0:
     once "^1.3.1"
     simple-concat "^1.0.0"
 
-source-map-support@^0.4.18:
-  version "0.4.18"
-  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.4.18.tgz#0286a6de8be42641338594e97ccea75f0a2c585f"
+source-map-support@^0.5.9:
+  version "0.5.10"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.10.tgz#2214080bc9d51832511ee2bab96e3c2f9353120c"
+  integrity sha512-YfQ3tQFTK/yzlGJuX8pTwa4tifQj4QS2Mj7UegOu8jAz59MqIiMGPXxQhVQiIMNzayuUSF/jEuVnfFF5JqybmQ==
   dependencies:
-    source-map "^0.5.6"
+    buffer-from "^1.0.0"
+    source-map "^0.6.0"
 
-source-map@^0.5.6:
-  version "0.5.7"
-  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
+source-map@^0.6.0:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
+  integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
-ssdp-ts@^3.2.1:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/ssdp-ts/-/ssdp-ts-3.2.2.tgz#730df814629cdb7d5f92c7c5d877f98698c792e4"
+ssdp-ts@^3.2.5:
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/ssdp-ts/-/ssdp-ts-3.2.5.tgz#d28a84b848f46e743bba57bac8073103c7bbf27a"
+  integrity sha512-kKTSVFZOgmuHFlrnxxyjteSqV33WM+rJMywA7H5ATWfa8WDwoH/9lA9/pVzrgRQX0Ha1nHMhO/1Sl3hA74QPew==
   dependencies:
-    "@types/async" "^2.0.40"
-    "@types/bluebird" "^3.5.8"
+    "@types/async" "^2.4.0"
+    "@types/bluebird" "^3.5.25"
     "@types/debug" "0.0.29"
     "@types/extend" "^2.0.30"
-    "@types/node" "^8.0.17"
+    "@types/node" "^8.10.39"
     async "^2.1.4"
     bluebird "^3.4.7"
     debug "^2.3.3"
@@ -1239,10 +1254,6 @@ type-is@~1.6.15, type-is@~1.6.16:
     media-typer "0.3.0"
     mime-types "~2.1.18"
 
-ultron@~1.1.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/ultron/-/ultron-1.1.1.tgz#9fe1536a10a664a65266a1e3ccf85fd36302bc9c"
-
 underscore@^1.8.3:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.9.1.tgz#06dce34a0e68a7babc29b365b8e74b8925203961"
@@ -1302,14 +1313,6 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
 
-ws@^3.3.2:
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-3.3.3.tgz#f1cf84fe2d5e901ebce94efaece785f187a228f2"
-  dependencies:
-    async-limiter "~1.0.0"
-    safe-buffer "~5.1.0"
-    ultron "~1.1.0"
-
 ws@^5.0.0:
   version "5.2.2"
   resolved "https://registry.yarnpkg.com/ws/-/ws-5.2.2.tgz#dffef14866b8e8dc9133582514d1befaf96e980f"
@@ -1319,6 +1322,13 @@ ws@^5.0.0:
 ws@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/ws/-/ws-6.0.0.tgz#eaa494aded00ac4289d455bac8d84c7c651cef35"
+  dependencies:
+    async-limiter "~1.0.0"
+
+ws@^6.1.2:
+  version "6.1.3"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-6.1.3.tgz#d2d2e5f0e3c700ef2de89080ebc0ac6e1bf3a72d"
+  integrity sha512-tbSxiT+qJI223AP4iLfQbkbxkwdFcneYinM2+x46Gx2wgvbaOMO36czfdfVUBRTHvzAMRhDd98sA5d/BuWbQdg==
   dependencies:
     async-limiter "~1.0.0"
 
