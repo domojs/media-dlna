@@ -35,20 +35,20 @@ akala.injectWithNameAsync(['$isModule', '$agent.api/zeroconf', '$agent.api/media
             mute(p)
             {
             },
-            async status(p: { target: string })
+            async status(p)
             {
-                await players[p.target].GetPositionInfo();
+                await players[p.identity].GetPositionInfo();
                 var state: 'stopped' | 'paused' | 'playing';
-                switch (players[p.target].TransportState)
+                switch (players[p.identity].TransportState)
                 {
                     case 'NO_MEDIA_PRESENT':
                     case 'STOPPED':
                     case 'TRANSITIONING':
                         client.$proxy().status({
-                            identity: p.target,
+                            identity: p.identity,
                             state: 'stopped',
                         });
-                        stopTimer(p.target);
+                        stopTimer(p.identity);
                         return;
                     case 'PAUSED_PLAYBACK':
                         state = 'paused';
@@ -57,11 +57,11 @@ akala.injectWithNameAsync(['$isModule', '$agent.api/zeroconf', '$agent.api/media
                         state = 'playing';
                         break;
                 }
-                log.verbose(players[p.target]);
+                log.verbose(players[p.identity]);
                 return client.$proxy().status({
-                    identity: p.target,
+                    identity: p.identity,
                     state: state,
-                    position: Number(players[p.target].RelativeTimePosition) / 100,
+                    position: Number(players[p.identity].RelativeTimePosition) / 100,
                 });
             },
             async next(p)
