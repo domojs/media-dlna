@@ -1,6 +1,6 @@
 {
     "name": "@domojs/media-dlna",
-    "version": "0.0.5",
+    "version": "0.0.4",
     "description": "",
     "main": "dist/server/index.js",
     "scripts": {
@@ -19,7 +19,7 @@
         "@akala/server": "^2.1.9"
     },
     "peerDependencies": {
-        "@domojs/media": "^1.1.55",
+        "@domojs/media": "^1.1.63",
         "@domojs/service-discovery": "^1.1.1",
         "@domojs/theme-default": "^1.1.20",
         "@domojs/upnp": "^1.0.12"
@@ -28,6 +28,6 @@
     "devDependencies": {
         "@domojs/media": "^1.1.63",
         "@domojs/service-discovery": "^1.1.7",
-        "@domojs/upnp": "^1.0.21"
+        "@domojs/upnp": "^1.0.20"
     }
 }
